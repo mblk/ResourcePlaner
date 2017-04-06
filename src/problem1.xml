@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem>
+  <groups>
+    <autofill first="11.1.2017" last="28.2.2017">
+      <costs default="1">
+        <cost index="2" cost="0.8" />
+        <cost index="5" cost="1.5" />
+      </costs>
+    </autofill>
+  </groups>
+
+  <constraints>
+    <constraint id="C1">
+      <restrictions>
+        <autofill first="10.2.2017" last="20.2.2017" />
+      </restrictions>
+    </constraint>
+  </constraints>
+
+  <resources>
+    <resource id="MNE">
+      <constraints>
+        <constraint id="BS_IKI11B" />
+      </constraints>
+    </resource>
+    <resource id="MVU">
+      <constraints>
+        <constraint id="BS_IKI11B" />
+      </constraints>
+    </resource>
+    <resource id="MZE">
+      <constraints>
+        <constraint id="BS_IFA11B" />
+      </constraints>
+    </resource>
+    <resource id="MBL">
+      <constraints>
+        <constraint id="BS_IFA11B" />
+      </constraints>
+    </resource>
+    <resource id="CFI">
+      <constraints>
+        <constraint id="BS_IFA11B" />
+      </constraints>
+    </resource>
+    <resource id="FHA">
+      <constraints>
+        <constraint id="BS_IF10E" />
+      </constraints>
+    </resource>
+    <resource id="JOM">
+      <constraints>
+        <constraint id="BS_IF10B" />
+      </constraints>
+    </resource>
+    <resource id="CZA">
+      <constraints>
+        <constraint id="BS_IKI10A" />
+      </constraints>
+    </resource>
+    <resource id="SDO">
+      <constraints>
+        <constraint id="BS_IF10E" />
+      </constraints>
+    </resource>
+
+
+  </resources>
+  
+</problem>
