@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <problem>
   <groups>
-    <autofill first="11.1.2017" last="28.2.2017">
+    <autofill first="10.04.2017" last="30.06.2017">
       <costs default="1">
-        <cost index="2" cost="0.8" />
-        <cost index="5" cost="1.5" />
+        <cost index="5" cost="2" />
       </costs>
     </autofill>
   </groups>
 
   <constraints>
-    <constraint id="C1">
+    <!--<constraint id="C1">
       <restrictions>
         <autofill first="10.2.2017" last="20.2.2017" />
       </restrictions>
+    </constraint>-->
+
+    <constraint id="BS_IF10E">
+      <restrictions>
+        <autofill first="03.04.2017" last="07.04.2017" />
+        <autofill first="22.05.2017" last="02.06.2017" />
+      </restrictions>
     </constraint>
+
+    <constraint id="BS_IF10B">
+      <restrictions>
+        <autofill first="08.05.2017" last="19.05.2017" />
+        <autofill first="19.06.2017" last="30.06.2017" />
+      </restrictions>
+    </constraint>
+
+    <constraint id="BS_IFA11B">
+      <restrictions>
+        <autofill first="08.05.2017" last="19.05.2017" />
+        <autofill first="19.06.2017" last="30.06.2017" />
+      </restrictions>
+    </constraint>
+
+    <constraint id="BS_IFS11B">
+      <restrictions>
+        <autofill first="08.05.2017" last="19.05.2017" />
+        <autofill first="19.06.2017" last="30.06.2017" />
+      </restrictions>
+    </constraint>
+
+    <constraint id="BS_IKI11B">
+      <restrictions>
+        <autofill first="24.04.2017" last="07.05.2017" />
+        <autofill first="19.06.2017" last="02.07.2017" />
+      </restrictions>
+    </constraint>
+
+    <constraint id="BS_IKI10A">
+      <restrictions>
+        <autofill first="08.05.2017" last="21.05.2017" />
+      </restrictions>
+    </constraint>
+    
   </constraints>
 
   <resources>
@@ -35,7 +76,6 @@
     </resource>
     <resource id="MBL">
       <constraints>
-        <constraint id="BS_IFA11B" />
       </constraints>
     </resource>
     <resource id="CFI">
@@ -63,7 +103,11 @@
         <constraint id="BS_IF10E" />
       </constraints>
     </resource>
-
+    <resource id="PHA">
+      <constraints>
+        <constraint id="BS_IF10E" />
+      </constraints>
+    </resource>
 
   </resources>
   
