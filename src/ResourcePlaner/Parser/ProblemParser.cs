@@ -157,9 +157,7 @@ namespace ResourcePlaner.Parser
 
                 var xmlRestrictions = xmlConstraint.Element("restrictions");
 
-                var xmlRestrictionAutofill = xmlRestrictions.Element("autofill");
-
-                if (xmlRestrictionAutofill != null)
+                foreach(var xmlRestrictionAutofill in xmlRestrictions.Elements("autofill"))
                 {
                     var first = DateTime.Parse(xmlRestrictionAutofill.Attribute("first").Value);
                     var last = DateTime.Parse(xmlRestrictionAutofill.Attribute("last").Value);

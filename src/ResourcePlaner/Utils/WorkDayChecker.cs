@@ -65,7 +65,7 @@ namespace ResourcePlaner.Utils
             DateTime osterSonntag = GetOsterSonntag(year);
 
             AddNoWorkDay(osterSonntag, "Ostersonntag");
-            AddNoWorkDay(osterSonntag.AddDays(-3), "Gründonnerstag");
+            //AddNoWorkDay(osterSonntag.AddDays(-3), "Gründonnerstag");
             AddNoWorkDay(osterSonntag.AddDays(-2), "Karfreitag");
             AddNoWorkDay(osterSonntag.AddDays(1), "Ostermontag");
             AddNoWorkDay(osterSonntag.AddDays(39), "Christi Himmelfahrt");
